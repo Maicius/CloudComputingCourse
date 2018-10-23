@@ -1,0 +1,1 @@
+spark-submit --master spark://localhost:7077 /Users/maicius/code/CloudComputing/SparkTopK.py 1000
