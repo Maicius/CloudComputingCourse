@@ -55,7 +55,7 @@ class SimulationRead(object):
         data = x.collect()
         if not data:
             return
-        with open(self.result_file + '/MG1832011.txt', 'a', encoding='utf-8') as a:
+        with open(self.result_file + '/PMG1832011.txt', 'a', encoding='utf-8') as a:
             for province in data:
                 if str(province[0]) != '':
                     s_write = str(province[0]) + '_' + str(province[1]) + ';'
